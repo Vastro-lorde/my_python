@@ -1,0 +1,13 @@
+print("Hi, My name is Spirit, What is your name Please?")
+myName= input()
+print("Nice to meet you " + myName)
+print("May I know your current location please?")
+location= input()
+print("I heard " + location + " is a good place to live")
+print("would you like to know your lucky number now?")
+ans= input()
+print("Your answer doesn't matter, I will still tell you")
+lucky= len(location) % len(myName) + len(ans)
+print("Your lucky number is " + str(lucky) )
+print("so your stats are " + myName + str(" living in ") + location + str(" with a LUCKY number of ") + 
+    str(len(location) % len(myName) + len(ans)) )
